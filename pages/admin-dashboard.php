@@ -46,16 +46,14 @@
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item" href="#">
-                                    <div><small><strong>Payment</strong> Commission received from City Hostel.</small>
-                                    </div>
+                                    <div><small><strong>New Inquiry</strong> Student inquiry received for Campus Comfort.</small></div>
                                     <div class="text-muted small">1 hour ago</div>
                                 </a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item" href="#">
-                                    <div><small><strong>Support</strong> New support ticket from Student ID #1234.</small>
-                                    </div>
+                                    <div><small><strong>Support</strong> New support ticket from Student ID #1234.</small></div>
                                     <div class="text-muted small">2 hours ago</div>
                                 </a></li>
                             <li>
@@ -73,8 +71,8 @@
                             <li>
                                 <h6 class="dropdown-header">Super Admin</h6>
                             </li>
-                            <li><a class="dropdown-item" href="#" onclick="showSection('11-admin-profile')"><i class="bi bi-person me-2"></i>View Profile</a></li>
-                            <li><a class="dropdown-item" href="#" onclick="showSection('12-admin-settings')"><i class="bi bi-gear me-2"></i>Account Settings</a>
+                            <li><a class="dropdown-item" href="#" onclick="showSection('08-profile')"><i class="bi bi-person me-2"></i>View Profile</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="showSection('09-settings')"><i class="bi bi-gear me-2"></i>Account Settings</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
