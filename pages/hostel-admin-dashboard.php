@@ -23,9 +23,58 @@
         <nav class="navbar navbar-light bg-white shadow-sm mb-4">
             <div class="container-fluid">
                 <span class="navbar-brand mb-0 h1">🏨 Hostel Listing Dashboard</span>
-                <div>
-                    <i class="bi bi-bell fs-5 me-3"></i>
-                    <img src="https://via.placeholder.com/30" class="rounded-circle" alt="user" />
+                <div class="d-flex align-items-center">
+                    <!-- Notification Dropdown -->
+                    <div class="dropdown me-3">
+                        <i class="bi bi-bell fs-5" id="notificationDropdown" data-bs-toggle="dropdown"
+                            aria-expanded="false" style="cursor: pointer;">
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle"
+                                style="font-size: 0.5rem;">
+                                <span class="visually-hidden">New alerts</span>
+                            </span>
+                        </i>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="notificationDropdown">
+                            <li>
+                                <h6 class="dropdown-header">Notifications</h6>
+                            </li>
+                            <li><a class="dropdown-item" href="#">
+                                    <div><small><strong>New Booking!</strong> Room 201 was booked.</small></div>
+                                    <div class="text-muted small">5 minutes ago</div>
+                                </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">
+                                    <div><small><strong>Cancellation</strong> Jane Doe cancelled booking #541.</small>
+                                    </div>
+                                    <div class="text-muted small">1 hour ago</div>
+                                </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-center" href="#">View All Notifications</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Profile Dropdown -->
+                    <div class="dropdown">
+                        <img src="https://via.placeholder.com/30" class="rounded-circle" alt="user" id="profileDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false" style="cursor: pointer;" />
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+                            <li>
+                                <h6 class="dropdown-header">John Doe</h6>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-person me-2"></i>View Profile</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-gear me-2"></i>Account Settings</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right me-2"></i>Logout</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>

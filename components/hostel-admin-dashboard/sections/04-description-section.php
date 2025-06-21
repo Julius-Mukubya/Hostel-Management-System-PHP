@@ -115,7 +115,7 @@
          const securityFeatures = document.getElementById('securityFeatures').value.trim();
 
          // Send data to PHP using fetch
-         fetch('save_description.php', {
+         fetch('../includes/save_description.php', {
              method: 'POST',
              headers: { 'Content-Type': 'application/json' },
              body: JSON.stringify({

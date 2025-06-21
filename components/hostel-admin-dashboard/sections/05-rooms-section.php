@@ -147,7 +147,7 @@ Furnishing for ${type}</label>
         });
 
         // Send data to PHP using fetch
-        fetch('save_rooms.php', {
+        fetch('../includes/save_rooms.php', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ rooms })

@@ -120,7 +120,7 @@
         const emailAddress = document.getElementById('emailAddress').value.trim();
 
         // Sending data to PHP while using fetch
-        fetch('save_basic_info.php', {
+        fetch('../includes/save_basic_info.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

@@ -154,7 +154,7 @@ function saveSection() {
         .map(cb => cb.nextElementSibling.textContent.trim());
 
     // Send data to PHP using fetch
-    fetch('save_booking_info.php', {
+    fetch('../includes/save_booking_info.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

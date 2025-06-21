@@ -83,7 +83,7 @@
           const availableFrom = document.getElementById('availableFrom').value;
 
           // Send data to PHP using fetch
-          fetch('save_availability.php', {
+          fetch('../includes/save_availability.php', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({

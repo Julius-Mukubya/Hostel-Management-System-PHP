@@ -128,7 +128,7 @@
               .map(cb => cb.value);
 
           // Send data to PHP using fetch
-          fetch('save_facilities.php', {
+          fetch('../includes/save_facilities.php', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({ facilities })

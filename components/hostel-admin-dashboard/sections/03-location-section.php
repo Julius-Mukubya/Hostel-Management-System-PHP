@@ -100,7 +100,7 @@
 
     // Function to send location data to the PHP script using fetch
     function saveLocationSection(fullAddress, city, landmarks, distance, directions) {
-        fetch('save_location.php', {
+        fetch('../includes/save_location.php', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

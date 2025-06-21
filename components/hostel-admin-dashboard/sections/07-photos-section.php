@@ -254,7 +254,7 @@
             formData.append('exterior_interior[]', exteriorInterior.files[i]);
         }
 
-        fetch('save_photos.php', {
+        fetch('../includes/save_photos.php', {
             method: 'POST',
             body: formData
         })
