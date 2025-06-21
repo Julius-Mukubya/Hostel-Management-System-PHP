@@ -65,8 +65,8 @@
                             <li>
                                 <h6 class="dropdown-header">John Doe</h6>
                             </li>
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-person me-2"></i>View Profile</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-gear me-2"></i>Account Settings</a>
+                            <li><a class="dropdown-item" href="#" onclick="showSection('10-profile-section')"><i class="bi bi-person me-2"></i>View Profile</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="showSection('11-settings-section')"><i class="bi bi-gear me-2"></i>Account Settings</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
